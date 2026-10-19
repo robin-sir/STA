@@ -1,3 +1,5 @@
+// web driver configuration practical 7
+
 from selenium import webdriver
 # Start Chrome
 driver = webdriver.Chrome()
