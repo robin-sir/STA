@@ -1,0 +1,9 @@
+from selenium import webdriver
+# Start Chrome
+driver = webdriver.Chrome()
+# Open Google
+driver.get("https://www.google.com")
+# Print the page title
+print("Title:", driver.title)
+# Close the browser session
+driver.quit()
