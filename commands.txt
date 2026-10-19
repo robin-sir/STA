@@ -1,0 +1,10 @@
+// python installation command
+winget install Python.Python.3.13
+
+
+python --version
+// selenium installation
+python -m pip install --upgrade selenium
+python -c "import selenium; print(selenium.__version__)
+// chrome driver install link 
+  https://storage.googleapis.com/chrome-for-testing-public/155.0.8059.84/win64/chromedriver-win64.zip
